@@ -117,7 +117,7 @@ p {
 }
 .short-hr-left::after {
     border-top: 2px solid;
-    border-color: #d71414;
+    border-color: #ffdc29;
     content: "";
     display: block;
     height: 1px;
@@ -126,7 +126,7 @@ p {
 }
 .short-hr-center::after {
     border-top: 2px solid;
-    border-color: #d71414;
+    border-color: #ffdc29;
     content: "";
     display: block;
     height: 1px;
@@ -135,7 +135,7 @@ p {
 }
 .short-hr-right::after {
     border-top: 2px solid;
-    border-color: #d71414;
+    border-color: #ffdc29;
     content: "";
     display: block;
     height: 1px;
@@ -199,7 +199,8 @@ button {
     transition: all 0.2s ease;
     cursor: pointer;
     text-align: center;
-    font-weight: 600;
+    font-weight: 550;
+    
 }
 .button:visited {
     color: #222;
@@ -207,7 +208,7 @@ button {
 .button:hover {
     text-decoration: none !important;
     color: #FFF !important;
-    background: #bc1a1a;
+    background: #20c03b;
 }
 .button:focus {
     color: #222;
@@ -221,6 +222,7 @@ button-two {
     outline: none !important;
 }
 .button-two {
+    text-transform: uppercase;
     height: auto;
     width: 210px;
     margin: 20px auto;
@@ -228,7 +230,7 @@ button-two {
     font-size: 1rem;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
     border: none;
     border-radius: 4px;
     background: #ff1313;
@@ -237,7 +239,7 @@ button-two {
     transition: all 0.2s ease;
     cursor: pointer;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
 }
 .button-two:visited {
     color: #222;
@@ -253,6 +255,49 @@ button-two {
 .help-block {
     font-size: 12px;
 }
+
+ /* Last buy Now button */
+
+ last-button {
+    outline: none !important;
+}
+.last-button {
+    height: auto;
+    width: 210px;
+    margin: 20px auto;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    background: blue;
+    display: inline-block;
+    outline: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 550;
+    
+}
+.last-button:visited {
+    color: #222;
+}
+.last-button:hover {
+    text-decoration: none !important;
+    color: #FFF !important;
+    background: #054db9;
+}
+.last-button:focus {
+    color: #222;
+}
+.help-block {
+    font-size: 12px;
+}
+
+
+
 /* - Cookies Notification - */
 .cookies-bar {
     background: #111;
@@ -260,7 +305,7 @@ button-two {
     width: 100vw;
     position: fixed;
     bottom: -60px;
-    border-top: 1px solid #d71414;
+    border-top: 1px solid #ffdc29;
     z-index: 10;
     transition: 0.4s;
 }
@@ -541,6 +586,13 @@ button-two {
 
 }
 /* --------------------------- /////////// V. FEATURES SECTION /////////// --------------------------- */
+
+.tab-p{
+    margin-left: 60px;
+}
+.second-pera{
+    text-align: justify;
+}
 .features .col-md-4 {
     background-size: cover;
     background-position: center;
@@ -548,7 +600,7 @@ button-two {
     padding: 10vh 5vw;
 }
 #features-section .feature-card:nth-child(1) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/feature1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/Videos/WolfAttack_x264.mp4);
 }
 #features-section .feature-card:nth-child(2) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/feature2.jpg);
@@ -663,12 +715,13 @@ button-two {
 
 /* --------------------------- /////////// VII. CTA SECTION /////////// --------------------------- */
 #cta-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/img4.jpg);
 }
 .game-box {
     float: right;
 }
 #cta-section h1 {
+    margin-top: 70px;
     font-size: 3.5rem;
 }
 .platforms {
@@ -764,7 +817,7 @@ button-two {
 }
 /* --------------------------- /////////// IX. EXTRAS /////////// --------------------------- */
 #extras {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/img1.jpg);
 }
 #extras .headline {
     margin-top: 20vh;
@@ -834,6 +887,10 @@ input {
         margin: 0 0 3em 0;
     }
 }
+
+.hero-capt{
+    margin-top: 50px;
+}
 /* --------------------------- /////////// FOOTER /////////// --------------------------- */
 #footer {
     width: 100%;
@@ -841,13 +898,13 @@ input {
     height: auto;
     color: #AAA;
     background: url(../images/bg.png) repeat;
-    border-top: 1px solid #d71414;
+    border-top: 1px solid #ffdc29;
     font-size: 14px;
     line-height: 20px;
 }
-#footer .row:only-child {
+/* #footer .row:only-child {
     padding: 20px 0;
-}
+} */
 #footer ul {
     margin: 10px 0;
 }
@@ -893,8 +950,15 @@ input {
     background: #222;
     border: none;
 }
-.extra-page .hero-caption {
+.extra-page  {
     margin-top: 25vh;
+}
+.extra-pa  {
+    margin-top: 15vh;
+}
+
+.hero-caption{
+    margin-top: 80px;    
 }
 .extra-page .hero-caption h1 {
     font-size: 3.5rem;
@@ -989,4 +1053,8 @@ input {
     #footer-extra .row:first-child {
         padding: 40px 0 20px 0;
     }
+}
+
+.last-sec{
+    margin-top: 40px;
 }
